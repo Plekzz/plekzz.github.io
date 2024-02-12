@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	background:#f4f3e8;
+	/*background: #212e21;*/
+	font-family: "Helvetica";
+}
+
+header{
+	display:flex;
+	align-items: center;
+	text-align: right;
+	justify-content: space-between;
+	background: #212e21;
+	padding:0px 40px 0px 40px;
+	height:90px;
+}
+
+header p{
+	color: #f4f3e8;
+	font-size:20px;
+}
+
+#logo {margin-left:12.5px;}
+nav {width:250px;}
+
+nav button{
+
+	margin: 0px;
+	padding: 0px 20px 0px 0px;
+	border-style: none;
+	background: none;
+	font-size: 17px;
+	color: #f4f3e8;
+}
+
+nav button:hover{
+	text-decoration:underline;
+	text-underline-position:under;
+	cursor: pointer;
+}
+#aktivB {
+	text-decoration:underline;
+	text-underline-position:under;
+}
+.Kontakt{width:250px;}
+.Kontakt img {
+	padding:0px 10px ;
+}
+
+.Slideshow {
+	margin-top: 75px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 65%;
+	border-radius: 25px;
+}
+.Showcase{
+	position: relative;
+	font-size: 40px;
+	color:#f4f3e8;
+}
+#LPV {
+	width:1920px; 
+	height:1080px; 
+	object-fit: none;
+	transition: .5s ease;
+}
+#DV {
+	position: absolute;
+	top:0px;
+	width:1920px; 
+	height:1080px; 
+	object-fit: none;
+  	transition: .5s ease;}
+
+.DV{
+text-align: center;
+position: absolute;
+height:100px;
+width:640px;
+transform: translate(-50%, -50%);
+left:50%;
+top:20%;
+}
+.DV :hover {cursor:pointer;}
+.WT{
+text-align: center;
+position: absolute;
+height:100px;
+width:640px;
+transform: translate(-50%, -50%);
+left:50%;
+top:35%;
+
+}
+.WT :hover {cursor:pointer;}
+.LL{
+text-align: center;
+position: absolute;
+height:100px;
+width:330px;
+transform: translate(-50%, -50%);
+left:50%;
+top:50%;
+}
+.LL :hover {cursor:pointer;}
+.PV{
+text-align: center;
+position: absolute;
+height:100px;
+width:720px;
+transform: translate(-50%, -50%);
+left:50%;
+top:65%;
+}
+.PV :hover {cursor:pointer;}
